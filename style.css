@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+#left{
+    width: 50%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1619631430699-043f820268ef?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80);
+    background-size: cover;
+    background-position: center;
+}
+
+#overlay{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background-color: rgba(63, 127, 247, 0.89);
+}
+
+#text{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    color: rgb(233, 231, 194);
+}
+
+#text h1{
+    font-family: "brutals";
+    font-size: 60px;
+}
+
+#overlay h2{
+    position: absolute;
+    top: 24%;
+    left: 15%;
+    font-family: "montserrat";
+    color: wheat;
+    font-size: 12px;
+}
+
+#btm{
+    position: absolute;
+    bottom: 0;
+    left: 8%;
+    width: 200px;
+    height: 60px;
+    background-color: rgb(255, 250, 223);
+    text-align: center;
+    border-radius: 2.5px;
+}
+
+#btm h2{
+    top: 22px;
+    position: absolute;
+    font-family: "montserrat";
+    font-size: 12px;
+    color: rgba(22, 97, 235, 0.89);
+}
+
+#pone{
+    position: absolute;
+    top: 53%;
+    left: 15%;
+    font-family: "montserrat";
+}
+
+#pone #one{
+    color: whitesmoke;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+#pone #two{
+    letter-spacing: 1px;
+    color: rgb(192, 192, 192);
+    font-size: 11px;
+}
+
+#poneright{
+    letter-spacing: 2px;
+    color: whitesmoke;
+    position: absolute;
+    top: 53%;
+    left: 60%;
+    font-family: "montserrat";
+}
+
+#lineone{
+    top: 60%;
+    left: 15%;
+    position: absolute;
+    width: 400px;
+    height: 1px;
+    background-color: whitesmoke;
+}
+
+#ptwo{
+    position: absolute;
+    top: 62%;
+    left: 15%;
+    font-family: "montserrat";
+}
+
+#ptwo #three{
+    color: whitesmoke;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+#ptwo #four{
+    letter-spacing: 1px;
+    color: rgb(192, 192, 192);
+    font-size: 11px;
+}
+
+#ptworight{
+    letter-spacing: 2px;
+    color: whitesmoke;
+    position: absolute;
+    top: 73%;
+    left: 60%;
+    font-family: "montserrat";
+}
+
+#linetwo{
+    top: 70%;
+    left: 15%;
+    position: absolute;
+    width: 400px;
+    height: 1px;
+    background-color: whitesmoke;
+}
+
+#pthree{
+    position: absolute;
+    top: 73%;
+    left: 15%;
+    font-family: "montserrat";
+}
+
+#pthree #five{
+    color: whitesmoke;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+#linethree{
+    top: 79%;
+    left: 15%;
+    position: absolute;
+    width: 400px;
+    height: 1px;
+    background-color: whitesmoke;
+}
+
+#right{
+    width: 50%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1642426697181-9a297a6b50e9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80);
+    background-size: cover;
+    background-position: top;
+}
+
+#rghtoverlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(247, 234, 211, 0.897);
+}
+
+#smallhead{
+    position: absolute;
+    top: 30%;
+    left: 65%;
+    color: #333;
+}
+
+#smallhead h1{
+    font-family: "brutals";
+    font-size: 25px;
+}
+
+#ptm{
+    position: absolute;
+    top: 48%;
+    left: 65%;
+    font-family: "brutals";
+}
+
+#ptm h1{
+    font-weight: 100;
+    font-size: 20px;
+}
+
+#ptm p{
+    letter-spacing: 0.5px;
+    padding-top: 15px;
+    font-size: 12px;
+    font-family: "montserrat";
+    font-weight: 500;
+}
+
+#car{
+    position: absolute;
+    top: 15%;
+    left: 40.5%;
+    
+}
+
+img{
+    width: 250px;
+    height: 510px;
+}
+
+#button{
+    position: absolute;
+    top: 70%;
+    left: 65%;
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: transparent;
+    border-color: #333;
+    border: 1px solid;
+}
+
+#button h5{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #333;
+    font-family: "montserrat";
+    letter-spacing: 2px;
+}
+
+#social{
+    position: absolute;
+    align-items: center;
+    font-size: 18px;
+    display: flex;
+    bottom: 5%;
+    right: 5%;
+    justify-content: space-between;
+}
+
+#social h3{
+    font-size: 14px;
+    font-family: "montserrat";
+    font-weight: 500;
+    padding-right: 15px;
+}
+
+.ri-youtube-fill{
+    padding-right: 15px;
+}
+
+.ri-twitter-fill{
+    padding-right: 15px;
+}
+
+.ri-facebook-circle-fill{
+    padding-right: 15px;
+}
+
+#upperline{
+    position: absolute;
+    width: 150px;
+    height: 1.5px;
+    bottom: 5%;
+    left: 39.2%;
+    background-color: rgb(252, 238, 212);
+}
+
+#upperlinetwo{
+    position: absolute;
+    width: 150px;
+    height: 1.5px;
+    bottom: 5%;
+    left: 50%;
+    background-color: #333;
+}
+
+#nav{
+    position: absolute;
+    top: 3%;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    font-size: 13px;
+    font-family: "Product Sans";
+}
+
+.l{
+    z-index: 9999;
+    color: rgba(252, 255, 228, 0.404);
+    
+}
+
+.ri-menu-fill{
+    z-index: 9999;
+    color: rgba(252, 240, 218, 0.425);
+}
+
+#navline{
+    z-index: 9999;
+    top: 8.5%;
+    left: 3%;
+    position: absolute;
+    width: 94%;
+    height: 0.5px;
+    background-color: rgb(255, 241, 214);
+}
+
+#navlinetwo{
+    z-index: 9999;
+    top: 8.5%;
+    right: 3%;
+    position: absolute;
+    width: 47%;
+    height: 0.5px;
+    background-color: #333;
+}
+
+#nav .l:hover{
+    color: whitesmoke;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#nav .m:hover:hover{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.ri-menu-fill:hover{
+    color: whitesmoke;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.ri-search-2-line:hover{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    cursor: pointer;
+}
